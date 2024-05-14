@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Sign up</title>
 </head>
 <body>
-    
+    <div class="container">
+        <img src="img-0.jpg" alt="Man-with-laptop">
+        <form>
+            <h1>Sign up</h1>
+            <p><a href="">I am already a member</a></p>
+            <input type="text" placeholder="JOHN DOE" name="name" id="name" required>
+            <input type="email" placeholder="E-MAIL" name="email" id="email" required>
+            <input type="password" placeholder="PASSWORD" name="password" id="password" required>
+            <label for="check">
+                <input type="checkbox" name="check" id="check" checked>
+                I agree with all <a href="">Terms & Conditions</a>
+            </label>
+            <button>CREATE MY ACCOUNT</button>
+            <fieldset>
+                <legend>Or sign up with</legend>
+                <i class='bx bxl-facebook-square bx-tada-hover bx-lg' id="fb"></i>
+                <i class='bx bxl-twitch bx-tada-hover bx-lg' id="twitch"></i>
+                <i class='bx bxl-google bx-tada-hover bx-lg' id="google"></i>
+            </fieldset>
+            
+        </form>
+    </div>
 </body>
 </html>
