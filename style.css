@@ -100,3 +100,18 @@ a {
     font: 1em;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 900px) {
+    body {
+        height: unset;
+        padding: 60px;
+    }
+    
+    img {
+        display: none;
+    }
+
+    fieldset {
+        display: flex;
+    }
+}
