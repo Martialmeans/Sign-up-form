@@ -114,4 +114,9 @@ a {
     fieldset {
         display: flex;
     }
+
+    .container {
+        border: none;
+        box-shadow: none;
+    }
 }
